@@ -1,0 +1,178 @@
+@extends('layout')
+
+@section('title', 'M650')
+
+@section('content')
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="{{ route('home') }}#portfolio">Equipos</a></li>
+          <li>M650</li>
+        </ol>
+        <h2>M650</h2>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/portfolio/m650/m650-1.webp') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/portfolio/m650/m650-2.webp') }}" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>M650</h3>
+              <h5>Potencia de marcha sin límites.</h5>
+              <p style="text-align: justify;">
+                La fregadora de operador a bordo más compacta de MACH para maniobrar con confianza en espacios confinados y congestionados. La M650 es la simplicidad en su máxima expresión, combinando la agilidad de un operador de operador a pie con la productividad de un conductor sentado, para crear una fregadora automática verdaderamente versátil. Poder de limpieza extremo que puedes llevar a cualquier parte.
+              </p>
+              <h5>CAMPOS DE APLICACIÓN</h5>
+              <p style="text-align: justify;">
+                Sitios industriales, comunidades y cercanías, escuelas, oficinas, edificios religiosos, hospitales, edificios públicos, aeropuertos, puertos, centros comerciales, depósitos logísticos, empresas de limpieza y multiservicios.
+              </p>
+              <h5>SUPERFICIES DE LIMPIEZA ADECUADAS</h5>
+              <p style="text-align: justify;">
+                Cerámica, mármol, cemento/hormigón, linóleo, superficies antideslizantes, porcelanato y muchas otras condiciones de suciedad.
+              </p><br>
+              <ul>
+                <li><button type="button" class="btn btn-outline-success col-12" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver datos técnicos</button></li>
+                <li><a href="#contact" class="btn btn-primary col-12">Solicitar Cotización</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Datos técnicos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Tabla de datos técnicos
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <div class="table-responsive">
+                                      <table class="table table-striped align-middle">
+                                          <thead>
+                                              <tr>
+                                                  <th scope="col">Característica</th>
+                                                  <th scope="col">M650</th>
+                                              </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <th scope="row">Camino de limpieza (mm)</th>
+                                                  <td>650 mm / 26 pulgadas</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Capacidad de limpieza</th>
+                                                  <td>3.900 m² / 41.980 ft² por hora</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Capacidad del tanque de recuperación</th>
+                                                  <td>125 L / 33 galones</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Capacidad del tanque de solución</th>
+                                                  <td>110 L / 29,1 galones</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Fuerza</th>
+                                                  <td>24V</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Conducir</th>
+                                                  <td>asistido electrónicamente</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Velocidad de avance</th>
+                                                  <td>6 km/h / 3,7 mph</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Batería</th>
+                                                  <td>4x6 V</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Cargador de batería</th>
+                                                  <td>a bordo</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Peso (incluyendo batería y cargador)</th>
+                                                  <td>343 kg / 756 libras</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Tamaño (sin escobilla de goma) (largo x ancho x alto)</th>
+                                                  <td>1425 x 690 x 1243 mm / 56,1 x 27,2 x 48,9 pulgadas</td>
+                                              </tr>
+                                              <tr>
+                                                  <th scope="row">Ancho de la escobilla de goma</th>
+                                                  <td>920 mm/36,2 pulgadas</td>
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Descripción
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <div>
+                                    <h5>La nueva restregadora automática de operador a bordo de 650 mm / 26 pulgadas que es completamente mecánica.</h5>
+                                    <p style="text-align: justify;">
+                                      La primera fregadora de nuestra gama compacta de operador a bordo es ágil y rápida, con un recorrido de limpieza de 650 mm / 26 pulg. Proporciona una capacidad de limpieza de 3900 m²/hora o 42 000 pies²/hora. La M650 es una máquina compacta con una maniobrabilidad impresionante que ofrece resultados rápidos, lo que la convierte en la alternativa práctica y moderna a una voluminosa fregadora automática de operador a pie. <br><br>
+                                      El M650 ha sido diseñado para brindar simplicidad y confiabilidad, es fácil de operar y es tan compacto que puede atravesar puertas y transportarse en elevadores. Las funciones manuales mantienen el mantenimiento al mínimo y los controles intuitivos son fáciles de operar. La M650 está optimizada para lograr un equilibrio perfecto con cabezales de cepillo dobles que giran en sentido contrario para brindar potencia de limpieza al piso de manera más eficiente que una máquina liviana de un solo cabezal de cepillo con conductor sentado. Fiable y económica, la M650 siempre ofrece una limpieza impecable.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main><!-- End #main -->
+
+@endsection
